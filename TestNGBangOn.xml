@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API">
+<listeners>
+<listener class-name="api.utilities.Reported"></listener>
+</listeners>
+<test name="FUNCTIONAL">
+<classes>
+<class name="api.tests.EmployeeTests"/>
+</classes>
+</test>
+</suite>

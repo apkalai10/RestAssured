@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-15T17:03:14 IST" name="API" finished-at="2024-07-15T17:03:16 IST" duration-ms="2629">
+    <groups>
+    </groups>
+    <test started-at="2024-07-15T17:03:14 IST" name="FUNCTIONAL" finished-at="2024-07-15T17:03:16 IST" duration-ms="2629">
+      <class name="api.tests.EmployeeTests">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.tests.EmployeeTests@6d763516]" started-at="2024-07-15T17:03:14 IST" name="setUpData" finished-at="2024-07-15T17:03:15 IST" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData -->
+        <test-method signature="testPostUser()[pri:1, instance:api.tests.EmployeeTests@6d763516]" started-at="2024-07-15T17:03:15 IST" name="testPostUser" finished-at="2024-07-15T17:03:16 IST" duration-ms="1555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testgetUser()[pri:2, instance:api.tests.EmployeeTests@6d763516]" started-at="2024-07-15T17:03:16 IST" name="testgetUser" finished-at="2024-07-15T17:03:16 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetUser -->
+        <test-method signature="testPutUser()[pri:3, instance:api.tests.EmployeeTests@6d763516]" started-at="2024-07-15T17:03:16 IST" name="testPutUser" finished-at="2024-07-15T17:03:16 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutUser -->
+        <test-method signature="testDeleteUser()[pri:4, instance:api.tests.EmployeeTests@6d763516]" started-at="2024-07-15T17:03:16 IST" name="testDeleteUser" finished-at="2024-07-15T17:03:16 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.tests.EmployeeTests -->
+    </test> <!-- FUNCTIONAL -->
+  </suite> <!-- API -->
+</testng-results>
